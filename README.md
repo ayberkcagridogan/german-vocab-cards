@@ -20,12 +20,10 @@ Users can add new words, play with existing words, and test their knowledge.
 ### Backend
 1. Navigate to `backend/GermanCards.Api` folder
 2. Restore dependencies using .NET CLI: `dotnet restore`
-3.Apply database migration:
-`dotnet ef migrations add InitialCreate
-dotnet ef database update`
-4.Run the application:`dotnet run`
+3. Apply database migration:`dotnet ef migrations add InitialCreate dotnet ef database update`
+4. Run the application:`dotnet run`
 
 ### FRONDEND
-1.Navigate to `frontend` folder
-2.Install dependencies:`npm install`
-3.Start the application:`npm start`
+1. Navigate to `frontend` folder
+2. Install dependencies:`npm install`
+3. Start the application:`npm start`
