@@ -1,0 +1,20 @@
+# ---- Global ----
+.vscode/
+.idea/
+*.log
+
+# ---- Backend (.NET) ----
+bin/
+obj/
+*.db
+
+# ---- Frontend (Node.js/React) ----
+node_modules/
+dist/
+build/
+.env
+
+# Ignore environment-specific settings
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
