@@ -5,8 +5,8 @@ namespace GermanCards.Data.Repositories;
 
 public class CardRepository : ICardRepository
 {
-    private readonly AppContext _context;
-    public CardRepository(AppContext context)
+    private readonly AppDbContext _context;
+    public CardRepository(AppDbContext context)
     {
         _context = context;
     }
